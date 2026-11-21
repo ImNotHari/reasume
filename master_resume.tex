@@ -1,0 +1,265 @@
+%------------------------------------------------------------------------------
+% Master Resume in LaTeX (Comprehensive Technical CV)
+% Author  : Harishankar Suresh
+% License : MIT
+%------------------------------------------------------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+%---------- Packages ----------
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage[letterpaper, margin=0.55in, top=0.55in, bottom=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{lastpage}
+\usepackage[sfdefault]{roboto}
+\input{glyphtounicode}
+
+%---------- Page Layout & Multi-Page Footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[L]{\footnotesize\color{darkgray} Harishankar Suresh --- Master Technical Resume}
+\fancyfoot[R]{\footnotesize\color{darkgray} Page \thepage\ of \pageref{LastPage}}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%---------- Section Formatting ----------
+\titleformat{\section}
+  {\large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{3.5pt}
+
+%---------- PDF Machine Readability ----------
+\pdfgentounicode=1
+
+%---------- Custom Commands ----------
+\newcommand{\resumeItem}[1]{\item\small{#1}\vspace{-1.5pt}}
+
+\newcommand{\resumeSubheading}[4]{%
+  \item
+  \begin{tabular*}{\linewidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \small #2 \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{%
+  \item
+  \begin{tabular*}{\linewidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-3pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemList}{\begin{itemize}[leftmargin=0.25in, itemsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%==============================================================================
+\begin{document}
+%==============================================================================
+
+%==============================================================================
+% PAGE 1: HEADER, PROFILE, EDUCATION, SKILLS MATRIX, ACCOMPLISHMENTS
+%==============================================================================
+
+%---------- Header ----------
+\begin{center}
+  {\Huge\textbf{Harishankar Suresh}} \\[4pt]
+  \small Kerala, India
+  \enspace$|$\enspace
+  \href{mailto:harishankar.suresh@gmail.com}{harishankar.suresh@gmail.com}
+  \enspace$|$\enspace
+  \href{https://github.com/ImNotHari}{github.com/ImNotHari}
+  \enspace$|$\enspace
+  \href{https://www.linkedin.com/in/harishankar-suresh-2aa657201/}{linkedin.com/in/harishankar-suresh}
+\end{center}
+\vspace{-6pt}
+
+%---------- Executive Summary ----------
+\section{Executive Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{Currently enrolled Computer Science and Engineering undergraduate (Expected Graduation: 2028) seeking a Software Engineering Internship. Proven track record of engineering production-grade systems across local AI/ML pipelines, real-time physics simulations, full-stack microservices, and distributed IoT networks. Demonstrated ability to optimize for computational efficiency, scalability, and measurable user impact---ranging from sub-50ms UI update streaming to 60\% peak memory reduction and 15\% hardware power efficiency gains.}}
+\end{itemize}
+\vspace{-6pt}
+
+%---------- Education ----------
+\section{Education \& Academic Foundation}
+\resumeSubHeadingList
+  \resumeSubheading
+    {Government Engineering College Idukki}{Kerala, India}
+    {B.Tech in Computer Science and Engineering}{Expected Graduation: 2028}
+  \resumeItemList
+    \resumeItem{\textbf{Core Coursework:} Data Structures \& Algorithms, Operating Systems, Database Management Systems (DBMS), Computer Networks, Object-Oriented Analysis \& Design, Computer System Architecture, Theory of Computation, Software Engineering.}
+    \resumeItem{\textbf{Academic Focus:} High-performance systems programming, edge intelligence, distributed network protocols, and pipeline latency optimization.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%---------- Comprehensive Technical Skills Matrix ----------
+\section{Technical Skills Matrix}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages:} Python (Advanced --- ML pipelines, async systems), JavaScript / TypeScript (Node.js, Vue.js, modern ES6+), C (Microcontroller drivers, embedded systems), Java (Spring Boot microservices), SQL (PostgreSQL, schema design), HTML5, CSS3}
+  \resumeItem{\textbf{AI / ML, Geospatial \& Speech:} PyTorch (Multimodal Attention, LSTM), XGBoost / LightGBM, Scikit-learn (Platt Calibration), ONNX Runtime, llama-cpp-python (4-bit GGUF), Kokoro TTS, PyMuPDF, Geospatial / GIS (GeoPandas, Rasterio, PostGIS, Folium), Apache Parquet}
+  \resumeItem{\textbf{Full-Stack \& Microservices:} Spring Boot (Java 17+, Spring Security, Spring Data JPA), FastAPI, Streamlit, Vue.js (SPA, Vuex/Pinia, Vue Router), RESTful APIs (OpenAPI, Swagger), Electron (Desktop app architecture, multi-process IPC)}
+  \resumeItem{\textbf{Cloud, DevOps \& Tooling:} Docker (Containerization, compose), GitHub Actions (CI/CD pipeline automation), Supabase (PostgreSQL BaaS, auth, row-level security), Vercel (Production edge deployments), Git / GitHub (Git Flow, branch protection), Linux / Bash}
+  \resumeItem{\textbf{Systems \& IoT Protocols:} MQTT Broker Architecture, Microcontroller Sensors (PM2.5, PM10, I2C, SPI, UART), Multi-sensor fusion algorithms, Multi-threading \& IPC, QtRvSim (RISC-V pipeline architectural simulation)}
+  \resumeItem{\textbf{Methodologies \& Quality Assurance:} Agile / Scrum sprint execution, Test-Driven Development (JUnit, PyTest, Jest), Peer Code Reviews, Systems Architecture Design, Low-latency API profiling}
+\resumeSubHeadingListEnd
+
+%---------- Key Accomplishments & Honors ----------
+\section{Key Accomplishments \& Honors}
+\resumeSubHeadingList
+
+  \resumeSubheading
+    {NASA International Space Apps Challenge 2025}{Global Nominee}
+    {Project TRACE: LEO Satellite Orbital Decay Simulation Platform}{October 2025}
+  \resumeItemList
+    \resumeItem{Awarded \textbf{Global Nominee} distinction among thousands of international participant teams for developing TRACE, an autonomous physics-driven orbital decay and satellite lifecycle prediction platform.}
+    \resumeItem{Engineered aerodynamic drag and gravitational modeling algorithms computing orbital degradation across Low Earth Orbit (120 to 450\,km altitudes) completely independent of two-line element (TLE) telemetry feeds.}
+    \resumeItem{Developed interactive orbital trajectory and lifetime visualizations using Chart.js, HTML5, and vanilla JavaScript to facilitate debris mitigation analytics for commercial satellite operators.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Performance Optimization Achievement: Local AI Narration}{Project Lead}
+    {Gomosy Desktop Engine Architecture Optimization}{2025}
+  \resumeItemList
+    \resumeItem{Architected a 60\% peak hardware memory reduction (curbing GPU VRAM $\le$ 2.5\,GB and system RAM $\le$ 1.0\,GB) by designing explicit ONNX session lifecycle teardown routines and streaming direct PCM-to-MP3 disk buffers.}
+    \resumeItem{Enabled low-spec edge PC deployment of multimodal LLM + TTS workflows without cloud dependence or recurring subscription costs.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Technical Leadership \& Engineering Community Impact}{Leadership Award}
+    {Computer Society, IEEE Student Branch, GEC Idukki}{2024 -- Present}
+  \resumeItemList
+    \resumeItem{Mentored 100+ undergraduate student engineers across 5+ concurrent project cohorts, instituting weekly code review circles that lowered defect escape rates by $\sim$30\% and accelerated delivery velocity by 20\%.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\clearpage
+
+%==============================================================================
+% PAGE 2: DETAILED PROJECTS CATALOG (FLAGSHIP PROJECTS)
+%==============================================================================
+
+\section{Projects Catalog (Flagship Systems)}
+\resumeSubHeadingList
+
+  \resumeProjectHeading
+    {Gomosy: Zero-Cloud PDF-to-Speech AI Studio}{Electron, Python, PyMuPDF, llama-cpp-python, Kokoro TTS, ONNX Runtime}
+  \resumeItemList
+    \resumeItem{\textbf{Architectural Design:} Designed and implemented an offline, privacy-first desktop application that transforms complex multi-column academic and technical PDFs into human-quality synthetic narration with real-time UI synchronization.}
+    \resumeItem{\textbf{Zero-Cloud Pipeline:} Integrated PyMuPDF for structural document extraction, quantized 4-bit GGUF language models via llama-cpp-python for content cleaning, and Kokoro ONNX TTS for fast local speech generation without cloud API costs or latency.}
+    \resumeItem{\textbf{Multi-Process IPC Bridge:} Engineered a non-blocking IPC bridge between Electron and Python backend services using child process stdout streaming, delivering sub-50ms real-time page-by-page rendering and progress telemetry.}
+    \resumeItem{\textbf{Hardware Resource Optimization:} Prevented out-of-memory exceptions during multi-chapter execution by enforcing explicit ONNX session disposal and continuous memory reclamation, capping peak memory footprint at $\le$ 1.0\,GB RAM and $\le$ 2.5\,GB VRAM.}
+    \resumeItem{\textbf{Audio Streaming Pipeline:} Implemented direct chunked PCM-to-MP3 encoding pipelines, allowing immediate audio playback before total document processing completes.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Project TRACE: LEO Satellite Orbital Decay Simulation}{Chart.js, Physics Modeling, JavaScript, HTML5, CSS3}
+  \resumeItemList
+    \resumeItem{\textbf{Physics-Based Atmospheric Modeling:} Engineered numerical integration models simulating orbital atmospheric drag, density fluctuations, and ballistic decay rates across Low Earth Orbit without reliance on external radar/TLE ephemeris.}
+    \resumeItem{\textbf{Collision Risk Visualization:} Developed interactive 2D orbital trajectory projections in Chart.js and vanilla JavaScript, allowing operators to simulate altitude loss under variable solar flux and drag coefficients.}
+    \resumeItem{\textbf{Sustainable Space Operations:} Provided automated lifetime decay estimates for CubeSats and commercial constellations to support post-mission disposal compliance with international 25-year guidelines.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Expense Tracker: Full-Stack Personal Finance SPA}{Vue.js, Spring Boot, PostgreSQL, Docker, Supabase, Vercel}
+  \resumeItemList
+    \resumeItem{\textbf{Full-Stack Microservices Architecture:} Engineered an end-to-end multi-user financial tracking platform featuring a reactive Vue.js Single Page Application paired with modular Spring Boot Java REST microservices.}
+    \resumeItem{\textbf{Sub-100ms Query Performance:} Architected normalized PostgreSQL relational schemas with indexed date-range and multi-category transaction queries, consistently fulfilling queries with sub-100ms latency.}
+    \resumeItem{\textbf{Data Isolation \& Security:} Implemented Spring Security with JSON Web Tokens (JWT) and role-based permissions, strictly enforcing user-scoped data boundaries and preventing cross-tenant information leakage.}
+    \resumeItem{\textbf{Test Automation \& Reliability:} Established end-to-end regression safety by authoring extensive unit and integration test suites using JUnit 5, Mockito, and PyTest to validate transaction state consistency.}
+    \resumeItem{\textbf{CI/CD Cloud Deployment:} Automated multi-stage build pipelines with GitHub Actions, containerizing the backend via Docker and orchestrating production deployments on Vercel and Supabase cloud infrastructure.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Distributed Air Purifier System (DAPS)}{C, Embedded Systems, Multi-Sensor Fusion, IoT, MQTT}
+  \resumeItemList
+    \resumeItem{\textbf{Distributed IoT Topology:} Developed a collaborative multi-node embedded IoT network that continuously monitors particulate air pollution and balances purification workloads across multiple physical units.}
+    \resumeItem{\textbf{Microcontroller Firmware:} Authored modular C device drivers communicating over I2C and SPI interfaces to interface with precision optical dust and gas particulate sensors (PM2.5 / PM10).}
+    \resumeItem{\textbf{Sensor Fusion \& Power Efficiency:} Formulated dynamic multi-modal sensor fusion algorithms with variable actuator controls, reducing aggregate system electrical power consumption by $\sim$15\% compared to isolated operation.}
+    \resumeItem{\textbf{Low-Latency Messaging:} Structured lightweight MQTT message queues for real-time inter-node state propagation and coordinated load redistribution when particulate spikes are detected in adjacent zones.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\clearpage
+
+%==============================================================================
+% PAGE 3: SPECIALIZED PROJECTS, LEADERSHIP, WORKSHOPS, OPEN SOURCE, INTERESTS
+%==============================================================================
+
+\section{Specialized Systems \& Architecture Research}
+\resumeSubHeadingList
+
+  \resumeProjectHeading
+    {EarthSense: Multimodal Landslide Early Warning System}{PyTorch, XGBoost, Sentinel-1 SAR, FastAPI, Streamlit}
+  \resumeItemList
+    \resumeItem{\textbf{Multimodal Fusion:} Engineered a Cross-Modal Multi-Head Attention network fusing Sentinel-1 SAR/MSI imagery, 5-day rainfall LSTMs, and terrain MLPs over 1\,km UTM grids (0.9581 PR-AUC, 0.9901 ROC-AUC on 2020 Pettimudi holdout; 88.4\% Wayanad transfer concordance).}
+    \resumeItem{\textbf{Low-Latency Serving \& Alerting:} Built a vectorized CPU inference pipeline (49.45\,ms p95 across 4,496 cells), dual-gated OASIS CAP v1.2 / NDMA SACHET alerting, and an interactive Streamlit/Folium GIS dashboard.}
+    \resumeItem{\textbf{Gated Pipeline:} Consolidated 75 scripts into 12 Papermill-gated notebooks with zero-leakage temporal/spatial splits and Platt calibration (0.0192 Brier score).}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Branch Prediction Analysis on RISC-V Pipeline}{QtRvSim, RISC-V Assembly, Computer Architecture, Python}
+  \resumeItemList
+    \resumeItem{\textbf{Architectural Simulation:} Conducted an in-depth empirical performance evaluation of hardware branch prediction techniques using QtRvSim, simulating a standard 5-stage RISC-V processor pipeline.}
+    \resumeItem{\textbf{Predictor Implementations:} Benchmarked static branch strategies (always-taken, backward-taken/forward-not-taken BTFN) against dynamic predictors (1-bit history, 2-bit saturating bimodal counters) across complex loop benchmarks.}
+    \resumeItem{\textbf{Trace Parsing \& CPI Analysis:} Built automated Python instrumentation scripts to ingest cycle-accurate instruction logs, calculating exact branch misprediction frequencies, pipeline stall bubbles, and Cycles Per Instruction (CPI) penalties.}
+    \resumeItem{\textbf{Technical Evaluation:} Authored a quantitative research report evaluating hardware area overhead versus instruction throughput gains, establishing performance tradeoffs for low-power edge processor cores.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- Leadership & Experience ----------
+\section{Leadership \& Engineering Experience}
+\resumeSubHeadingList
+
+  \resumeSubheading
+    {IEEE Student Branch, GEC Idukki}{Kerala, India}
+    {Technical Coordinator --- Computer Society}{2024 -- Present}
+  \resumeItemList
+    \resumeItem{\textbf{Technical Curriculum Leadership:} Directed technical training strategy for over 150 student members, organizing and delivering 4+ extensive hands-on workshops covering Git Flow, REST API Engineering, Microservices Architecture, and Hardware Debugging.}
+    \resumeItem{\textbf{Project Mentorship \& Code Quality:} Spearheaded structured weekly peer code reviews and sprint management for 5+ concurrent undergraduate student software initiatives, lowering production defect escape rates by $\sim$30\%.}
+    \resumeItem{\textbf{Student Acceleration:} Guided junior developers in adopting industry-standard engineering practices including version control hygiene, API contract documentation with OpenAPI, and modular test coverage.}
+    \resumeItem{\textbf{Community Growth:} Promoted collaborative open-source contributions, leading hackathon prep sessions and technical paper reading groups that increased active chapter project submissions by 40\%.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- Technical Workshops & Training Conducted ----------
+\section{Technical Workshops \& Developer Training Conducted}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Modern Git Flow \& Collaborative Engineering (2024):} Designed and conducted a 4-hour interactive workshop for 60+ students teaching branch strategies, pull-request hygiene, merge conflict resolution, and CI/CD basics.}
+  \resumeItem{\textbf{RESTful API Architecture \& Contract-First Design (2024):} Delivered a practical hands-on session on designing production REST APIs using Spring Boot and OpenAPI specifications, emphasizing JWT authentication and status code semantics.}
+  \resumeItem{\textbf{Embedded Systems \& IoT Sensor Interfacing (2025):} Instructed 40+ engineering peers on writing C drivers for microcontroller peripherals, I2C/SPI bus debugging, and MQTT payload serialization.}
+  \resumeItem{\textbf{Microservices Containerization with Docker (2025):} Guided senior student project teams on multi-stage Docker builds, environment isolation, and edge deployments to Vercel/Supabase.}
+\resumeSubHeadingListEnd
+
+%---------- Open Source & Community Contributions ----------
+\section{Open Source \& Technical Community}
+\resumeSubHeadingList
+  \resumeItem{\textbf{GitHub Portfolio (\href{https://github.com/ImNotHari}{github.com/ImNotHari}):} Actively publishing open-source tooling, reproducible systems benchmarks, and full-stack reference architectures; authored modular starter templates for local AI narration pipelines and Spring Boot microservice foundations.}
+  \resumeItem{\textbf{Developer Mentorship:} Regularly holding weekly office hours for university peers, conducting 1-on-1 code reviews, and troubleshooting distributed systems deployment issues.}
+\resumeSubHeadingListEnd
+
+%---------- Professional Interests & Research Focus ----------
+\section{Professional Interests \& Domains of Focus}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{\textbf{Core Technical Interests:} High-Performance Local AI Execution $\cdot$ Distributed Systems Architecture $\cdot$ Hardware-Software Co-Design $\cdot$ Microservices \& Cloud Native $\cdot$ Embedded IoT Sensor Networks $\cdot$ Open-Source Tooling $\cdot$ Systems Latency Optimization}}
+\end{itemize}
+
+%==============================================================================
+\end{document}
