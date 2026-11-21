@@ -53,7 +53,7 @@ Computer Science & Engineering undergraduate (**GEC Idukki**, 2024–2028) focus
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img width="856" src="https://github-readme-streak-stats.herokuapp.com/?user=ImNotHari&background=151b23&border=262d36&border_radius=12&stroke=262d36&ring=58a6ff&fire=58a6ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=e6edf3&sideLabels=8b949e&dates=6e7681&card_width=856" alt="GitHub Streak" />
+        <img width="856" src="https://raw.githubusercontent.com/ImNotHari/ImNotHari/main/assets/streak.svg" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
