@@ -3,7 +3,7 @@
 # Harishankar Suresh
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Systems+%26+Edge+AI+Engineer+%C2%B7+GEC+Idukki+(2024%E2%80%932028);Multimodal+Deep+Learning+%C2%B7+Geospatial+Early+Warning;Low-Latency+Local+Inference+%C2%B7+Distributed+Embedded+IoT" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=500&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Systems+%26+Edge+AI+Engineer+%C2%B7+GEC+Idukki+(2024%E2%80%932028);Multimodal+Deep+Learning+%C2%B7+Geospatial+Early+Warning;Low-Latency+Local+Inference+%C2%B7+Distributed+Embedded+IoT" alt="Typing SVG" />
 </a>
 
 <p>
@@ -35,17 +35,28 @@ Computer Science & Engineering undergraduate (**GEC Idukki**, 2024–2028) focus
 
 ### Live GitHub Telemetry
 
-<div align="center">
-  <a href="https://github.com/ImNotHari">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=ImNotHari&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=ffffff&icon_color=58a6ff&text_color=c9d1d9" alt="Harishankar's GitHub Stats" />
-  </a>
-  <a href="https://github.com/ImNotHari">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotHari&layout=compact&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=c9d1d9" alt="Top Languages" />
-  </a>
-</div>
+<br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ImNotHari&background=0d1117&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=ffffff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" />
+  <table>
+    <tr>
+      <td align="center" valign="middle" width="420">
+        <a href="https://github.com/ImNotHari">
+          <img height="195" src="https://github-readme-stats.vercel.app/api?username=ImNotHari&show_icons=true&bg_color=151b23&border_color=262d36&border_radius=12&title_color=ffffff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&line_height=28&card_width=420" alt="Harishankar's GitHub Stats" />
+        </a>
+      </td>
+      <td align="center" valign="middle" width="420">
+        <a href="https://github.com/ImNotHari">
+          <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotHari&layout=compact&langs_count=6&bg_color=151b23&border_color=262d36&border_radius=12&title_color=ffffff&text_color=c9d1d9&card_width=420" alt="Top Languages" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img width="856" src="https://github-readme-streak-stats.herokuapp.com/?user=ImNotHari&background=151b23&border=262d36&border_radius=12&stroke=262d36&ring=58a6ff&fire=58a6ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=e6edf3&sideLabels=8b949e&dates=6e7681&card_width=856" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
