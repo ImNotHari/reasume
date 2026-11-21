@@ -1,119 +1,126 @@
+<div align="center">
+
 # Harishankar Suresh
 
-Systems-oriented developer and Computer Science undergraduate with a focus on local machine learning pipelines, edge computing, and distributed embedded systems. Passionate about deterministic latency, efficient memory management, and practical software architecture.
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Systems+%26+Edge+AI+Engineer+%C2%B7+GEC+Idukki+(2024%E2%80%932028);Multimodal+Deep+Learning+%C2%B7+Geospatial+Early+Warning;Low-Latency+Local+Inference+%C2%B7+Distributed+Embedded+IoT" alt="Typing SVG" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-harishankar--suresh-18181b?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harishankar-suresh-2aa657201/)
-[![Email](https://img.shields.io/badge/Email-harishankar.suresh%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=white)](mailto:harishankar.suresh@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-ImNotHari-18181b?style=flat-square&logo=github&logoColor=white)](https://github.com/ImNotHari)
+<p>
+  <a href="https://www.linkedin.com/in/harishankar-suresh-2aa657201/">
+    <img src="https://img.shields.io/badge/LinkedIn-harishankar--suresh-18181b?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:harishankar.suresh@gmail.com">
+    <img src="https://img.shields.io/badge/Email-harishankar.suresh%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/ImNotHari">
+    <img src="https://img.shields.io/badge/GitHub-ImNotHari-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=ImNotHari&color=18181b&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
+</div>
 
 ---
 
 ### About
 
-I build software focused on systems, local machine learning setups, and embedded hardware, with an emphasis on keeping things lightweight and running without cloud dependencies.
+Computer Science & Engineering undergraduate (**GEC Idukki**, 2024–2028) focused on **local AI inference**, **multimodal geospatial systems**, and **resource-constrained embedded architectures**. I prioritize deterministic latency, tight memory budgets, and zero-cloud reliability.
 
-- **Focus:** Local AI inference, embedded sensor networks, and practical full-stack tools.
-- **Community:** Technical Coordinator for the IEEE Computer Society (GEC Idukki), helping organize practical sessions on Git and web basics for students.
-- **Education:** B.Tech in Computer Science and Engineering, Government Engineering College Idukki (2024 to 2028).
+- **Research & Engineering:** Multimodal deep learning (`EarthSense`), quantized local LLM/TTS pipelines (`Gomosy`), orbital mechanics (`TRACE`), and distributed microcontroller networks (`DAPS`).
+- **Community:** Technical Coordinator at **IEEE Computer Society (GEC Idukki)** — leading workshops on Git Flow, REST APIs, Docker, and embedded C, and mentoring 100+ student engineers.
 
 ---
 
-### Core Stack & Technologies
+
+### Live GitHub Telemetry
+
+<div align="center">
+  <a href="https://github.com/ImNotHari">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=ImNotHari&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=ffffff&icon_color=58a6ff&text_color=c9d1d9" alt="Harishankar's GitHub Stats" />
+  </a>
+  <a href="https://github.com/ImNotHari">
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImNotHari&layout=compact&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=c9d1d9" alt="Top Languages" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ImNotHari&background=0d1117&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=ffffff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" />
+</div>
+
+---
+
+### Engineering Arsenal
 
 <p align="left">
   <img src="https://img.shields.io/badge/C-18181b?style=flat-square&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Python-18181b?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-18181b?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-18181b?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Java-18181b?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-18181b?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PyTorch-18181b?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-18181b?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/FastAPI-18181b?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Spring_Boot-18181b?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Streamlit-18181b?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/PostgreSQL-18181b?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Linux-18181b?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/ONNX_Runtime-18181b?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
-  <img src="https://img.shields.io/badge/PyTorch-18181b?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/FastAPI-18181b?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-18181b?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/MQTT-18181b?style=flat-square&logo=eclipsemosquitto&logoColor=white" alt="MQTT" />
   <img src="https://img.shields.io/badge/Electron-18181b?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
 </p>
 
-| Domain                  | Tools & Technologies                                                                                                   |
-| :---------------------- | :--------------------------------------------------------------------------------------------------------------------- |
-| **Languages**           | C, Python, TypeScript, JavaScript, Java, SQL, RISC-V Assembly                                                          |
-| **AI, ML & Geospatial** | PyTorch (Multimodal Attention, LSTM), XGBoost, ONNX Runtime, llama.cpp (GGUF), Kokoro TTS, GeoPandas, Rasterio, Folium |
-| **Backend & Systems**   | Spring Boot, FastAPI, Streamlit, REST APIs, Microservices, Multi-threading, IPC, MQTT, Apache Parquet                  |
-| **DevOps & Platforms**  | Docker, Git, GitHub Actions, Linux, PostgreSQL, PostGIS, Supabase, Vercel                                              |
+| Domain                  | Stack & Capabilities                                                                                                         |
+| :---                    | :---                                                                                                                         |
+| **Languages**           | C, Python, Java, TypeScript, JavaScript, SQL, RISC-V Assembly                                                                |
+| **AI, ML & Geospatial** | PyTorch (Multimodal Attention, LSTM), XGBoost, ONNX Runtime, llama.cpp (4-bit GGUF), Kokoro TTS, GeoPandas, Rasterio, Folium |
+| **Backend & Systems**   | FastAPI, Spring Boot, Streamlit, REST/OpenAPI, Multi-threading, IPC, MQTT, Electron, Apache Parquet                          |
+| **Infra & Data**        | Docker, GitHub Actions, Linux, PostgreSQL / PostGIS, Supabase, Vercel                                                        |
 
 ---
 
-### Featured Systems & Projects
 
-#### [EarthSense](https://github.com/ImNotHari/Earthsense)
+### Featured Systems
 
-> **Multimodal Deep Learning Landslide Susceptibility & 24h Early Warning Platform**
 
-- **Technologies:** Python, PyTorch, XGBoost, Sentinel-1 SAR, FastAPI, Streamlit, GeoPandas, Parquet
-- Fused Sentinel-1 SAR/MSI imagery, 5-day rainfall LSTMs, and terrain MLPs via Cross-Modal Multi-Head Attention over 1 km UTM grids, achieving **0.9581 PR-AUC** (0.9901 ROC-AUC) on the 2020 Pettimudi holdout and **88.4%** cross-region concordance in Wayanad.
-- Engineered a vectorized CPU serving pipeline (**49.45 ms** p95 across 4,496 cells), dual-gated OASIS CAP v1.2 / NDMA SACHET alerting, and 12 Papermill-gated reproducible notebooks.
+| System                                                             | Domain                   | Core Stack                        | Benchmark / Recognition            | Activity                                                                                                                 |
+| :----------------------------------------------------------------- | :----------------------- | :-------------------------------- | :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| [**EarthSense**](https://github.com/ImNotHari/Earthsense)          | Multimodal Landslide EWS | PyTorch, XGBoost, SAR, FastAPI    | `0.9581` PR-AUC · `49.45 ms` p95   | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/Earthsense?style=flat-square&color=18181b&label=)     |
+| [**Gomosy**](https://github.com/ImNotHari/gomosy)                  | Offline PDF-to-Speech AI | Python, Electron, ONNX, llama.cpp | `≤ 1.0 GB` RAM · `≤ 2.5 GB` VRAM   | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/gomosy?style=flat-square&color=18181b&label=)         |
+| [**TRACE**](https://github.com/ImNotHari/TRACE)                    | LEO Orbital Decay Sim    | JavaScript, Physics, Chart.js     | **NASA Space Apps Global Nominee** | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/TRACE?style=flat-square&color=18181b&label=)          |
+| [**Expense Tracker**](https://github.com/ImNotHari/expensetracker) | Full-Stack Finance SPA   | Spring Boot, PostgreSQL, Docker   | `< 100 ms` Indexed Queries         | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/expensetracker?style=flat-square&color=18181b&label=) |
+| **DAPS**                                                           | Embedded IoT Network     | C, MQTT, I2C/SPI, Sensor Fusion   | `~15%` Power Reduction             | —                                                                                                                        |
+| **RISC-V Predictor**                                               | Microarchitecture Sim    | QtRvSim, RISC-V ASM, Python       | 5-Stage Pipeline CPI Analysis      | —                                                                                                                        |
 
-#### [Gomosy](https://github.com/ImNotHari/gomosy)
+<details>
+<summary><strong>Architectural Deep-Dives (Click to expand)</strong></summary>
 
-> **Offline, Zero-Cloud PDF-to-Speech AI Studio and TTS Neural Narration Engine**
+  <br />
 
-- **Technologies:** Python, Electron, llama-cpp-python, Kokoro TTS, ONNX Runtime, PyMuPDF
-- Architected a privacy-first desktop platform converting complex multi-column academic and technical PDFs into human-like audio locally without cloud APIs.
-- Engineered memory-reclamation routines and chunked PCM-to-MP3 streaming buffers, curbing peak hardware footprint to $\le$ 1.0 GB RAM and $\le$ 2.5 GB VRAM on consumer hardware.
+- **[EarthSense](https://github.com/ImNotHari/Earthsense) — Multimodal Landslide Susceptibility & 24h Early Warning**
+  - Fused Sentinel-1 SAR/MSI imagery, 5-day rainfall LSTMs, and terrain MLPs via Cross-Modal Multi-Head Attention over 1 km UTM grids (`0.9581` PR-AUC, `0.9901` ROC-AUC on 2020 Pettimudi holdout; `88.4%` Wayanad concordance).
+  - Engineered a vectorized CPU serving pipeline (`49.45 ms` p95 across 4,496 cells), dual-gated OASIS CAP v1.2 / NDMA SACHET alerting, and 12 Papermill-gated notebooks.
 
-#### [Project TRACE](https://github.com/ImNotHari/TRACE)
+- **[Gomosy](https://github.com/ImNotHari/gomosy) — Zero-Cloud PDF-to-Speech AI Studio**
+  - Built an offline desktop narration engine combining PyMuPDF extraction, 4-bit GGUF `llama-cpp-python` cleaning, and Kokoro ONNX TTS over a non-blocking Electron–Python IPC bridge (`< 50 ms` UI updates).
+  - Enforced explicit ONNX session disposal and chunked PCM-to-MP3 streaming, capping memory at `≤ 1.0 GB` RAM and `≤ 2.5 GB` VRAM.
 
-> **LEO Satellite Orbital Decay & Atmospheric Drag Simulation Platform**
+- **[Project TRACE](https://github.com/ImNotHari/TRACE) — LEO Satellite Orbital Decay Simulation** _(NASA Space Apps 2025 Global Nominee)_
+  - Implemented numerical integration models for atmospheric drag and ballistic decay across 120–450 km LEO independent of TLE telemetry, with interactive Chart.js lifetime projections.
 
-- **Recognition:** Global Nominee — NASA International Space Apps Challenge 2025
-- **Technologies:** JavaScript, Physics Modeling, Chart.js, HTML5
-- Developed numerical integration algorithms modeling atmospheric drag and ballistic decay across Low Earth Orbit (120–450 km) independent of radar/TLE telemetry feeds.
-- Built interactive multi-scenario trajectory visualizations to assist operators with lifetime estimation and space debris mitigation compliance.
+- **[Expense Tracker](https://github.com/ImNotHari/expensetracker) — Full-Stack Personal Finance Platform**
+  - Designed normalized PostgreSQL schemas with JWT tenant isolation, Spring Boot REST microservices, and automated GitHub Actions + Docker CI/CD.
 
-#### [Distributed Air Purifier System (DAPS)](https://github.com/ImNotHari)
+- **Distributed Air Purifier System (DAPS) & RISC-V Branch Prediction**
+  - Authored C I2C/SPI firmware for PM2.5/PM10 sensors with MQTT load-balancing (`~15%` power savings); benchmarked BTFN vs. 1-bit/2-bit dynamic predictors on a 5-stage RISC-V pipeline in QtRvSim.
 
-> **Collaborative Multi-Node Embedded Environmental Network**
-
-- **Technologies:** C, Embedded Systems, Multi-Sensor Fusion, MQTT, I2C / SPI
-- Authored modular microcontroller firmware interfacing with optical particulate sensors (PM2.5 / PM10) over I2C and SPI.
-- Designed dynamic multi-modal sensor fusion and load-balancing algorithms over lightweight MQTT queues, reducing cumulative power draw by ~15%.
-
-#### [RISC-V Branch Prediction Analysis](https://github.com/ImNotHari)
-
-> **Hardware Architecture Simulation & Pipeline Benchmarking**
-
-- **Technologies:** QtRvSim, RISC-V Assembly, Python Instrumentation
-- Conducted cycle-accurate simulation on a 5-stage RISC-V processor pipeline, comparing static branch strategies (BTFN) against dynamic predictors (1-bit / 2-bit bimodal saturating counters).
-- Extracted cycle logs via automated Python scripts to compute branch misprediction penalties and CPI stall impacts under varied loop workloads.
-
-#### [Full-Stack Expense Tracker](https://github.com/ImNotHari/expensetracker)
-
-> **Personal Finance Platform with Strict Data Isolation**
-
-- **Technologies:** Spring Boot, Java 17, PostgreSQL, Docker, Vue.js / React, JWT
-- Structured relational schemas with indexed date and multi-category queries, delivering consistent sub-100ms response latencies.
-- Implemented automated CI/CD container build and regression testing pipelines with GitHub Actions.
-
-### Community & Activities
-
-- **Technical Coordinator, IEEE Computer Society (GEC Idukki):**
-  - Helped organize practical sessions for club members on basic Git, web development, and project setups.
-  - Assisted juniors and batchmates with debugging, tool installations, and getting started on their coursework projects.
-  - Helped manage technical events, hackathon entries, and project presentations for the chapter.
+</details>
 
 ---
 
-### Current Focus & Exploration
+### Current Focus
 
-- Hardware-efficient quantization and low-latency inference runtimes on edge devices.
-- Processor microarchitecture simulation and pipeline hazard optimization.
-- Scalable, self-organizing IoT networks with resilient low-bandwidth telemetry.
-
----
+- **Edge & Geospatial AI:** Quantized inference runtimes, multimodal sensor fusion, and sub-50ms CPU serving.
+- **Systems & Architecture:** Pipeline hazard analysis, deterministic IPC, and resilient low-bandwidth IoT telemetry.
 
 <div align="center">
   <sub>Designed with restraint · Built for performance · <a href="https://github.com/ImNotHari">github.com/ImNotHari</a></sub>
