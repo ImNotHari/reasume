@@ -92,15 +92,31 @@ Computer Science & Engineering undergraduate (**GEC Idukki**, 2024–2028) focus
 
 ### Featured Systems
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/ImNotHari/Earthsense"><img src="https://raw.githubusercontent.com/ImNotHari/ImNotHari/main/assets/repo-earthsense.svg" alt="EarthSense" /></a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/ImNotHari/gomosy"><img src="https://raw.githubusercontent.com/ImNotHari/ImNotHari/main/assets/repo-gomosy.svg" alt="Gomosy" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/ImNotHari/TRACE"><img src="https://raw.githubusercontent.com/ImNotHari/ImNotHari/main/assets/repo-trace.svg" alt="TRACE" /></a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/ImNotHari/expensetracker"><img src="https://raw.githubusercontent.com/ImNotHari/ImNotHari/main/assets/repo-expensetracker.svg" alt="Expense Tracker" /></a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-| System                                                             | Domain                   | Core Stack                        | Benchmark / Recognition            | Activity                                                                                                                 |
-| :----------------------------------------------------------------- | :----------------------- | :-------------------------------- | :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| [**EarthSense**](https://github.com/ImNotHari/Earthsense)          | Multimodal Landslide EWS | PyTorch, XGBoost, SAR, FastAPI    | `0.9581` PR-AUC · `49.45 ms` p95   | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/Earthsense?style=flat-square&color=18181b&label=)     |
-| [**Gomosy**](https://github.com/ImNotHari/gomosy)                  | Offline PDF-to-Speech AI | Python, Electron, ONNX, llama.cpp | `≤ 1.0 GB` RAM · `≤ 2.5 GB` VRAM   | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/gomosy?style=flat-square&color=18181b&label=)         |
-| [**TRACE**](https://github.com/ImNotHari/TRACE)                    | LEO Orbital Decay Sim    | JavaScript, Physics, Chart.js     | **NASA Space Apps Global Nominee** | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/TRACE?style=flat-square&color=18181b&label=)          |
-| [**Expense Tracker**](https://github.com/ImNotHari/expensetracker) | Full-Stack Finance SPA   | Spring Boot, PostgreSQL, Docker   | `< 100 ms` Indexed Queries         | ![Last Commit](https://img.shields.io/github/last-commit/ImNotHari/expensetracker?style=flat-square&color=18181b&label=) |
-| **DAPS**                                                           | Embedded IoT Network     | C, MQTT, I2C/SPI, Sensor Fusion   | `~15%` Power Reduction             | —                                                                                                                        |
-| **RISC-V Predictor**                                               | Microarchitecture Sim    | QtRvSim, RISC-V ASM, Python       | 5-Stage Pipeline CPI Analysis      | —                                                                                                                        |
+| Additional Systems | Domain | Core Stack | Highlight |
+| :--- | :--- | :--- | :--- |
+| **DAPS** | Embedded IoT Network | C, MQTT, I2C/SPI, Sensor Fusion | `~15%` power reduction |
+| **RISC-V Predictor** | Microarchitecture Sim | QtRvSim, RISC-V ASM, Python | 5-stage pipeline CPI analysis |
 
 <details>
 <summary><strong>Architectural Deep-Dives (Click to expand)</strong></summary>
